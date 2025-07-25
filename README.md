@@ -71,18 +71,6 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 Feel free to open issues or discussions on the GitHub repository for any questions or feedback.
-
----
-
-*This README file is ready for use in your GitHub repository to help others understand and use your project effectively.*
+@vishalsinghchouhan.3375@gmail.com
 
 
-Save this as README.md in your project root, commit it, and push it to your GitHub repo:
-
-bash
-git add README.md
-git commit -m "Add final README file"
-git push origin main
-
-
-Let me know if you want help with the Git commands or anything else!
