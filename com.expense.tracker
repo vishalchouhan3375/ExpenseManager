@@ -1,0 +1,22 @@
+package com.expense.tracker;
+
+import java.util.Scanner;
+
+public class ExpenseManager {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double totalExpense = 0;
+
+        System.out.println("Welcome to Expense Manager!");
+        System.out.print("Enter number of expenses: ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            System.out.print("Enter amount for expense " + i + ": ");
+            double expense = sc.nextDouble();
+            totalExpense += expense;
+        }
+
+        System.out.println("Total Expense: ₹" + totalExpense);
+    }
+}
